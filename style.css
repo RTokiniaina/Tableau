@@ -9,6 +9,11 @@ table {
   margin-top: 100px;
 }
 
+caption {
+  font-size: 1.3em;
+  padding-bottom: px;
+}
+
 td,
 th {
   border: 1px solid black;
