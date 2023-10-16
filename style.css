@@ -3,23 +3,30 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-table {
-  border-collapse: collapse;
-  margin: auto;
-  margin-top: 100px;
+.table-container--one {
+  margin: 5%;
 }
 
-caption {
+table {
+  border-collapse: collapse;
+  margin-bottom: 100px;
+}
+
+h2 {
   margin: auto;
   font-size: 1.3em;
-  padding-bottom: 10px;
-  color: rgb(68, 100, 112);
+  padding-bottom: 28px;
+  color: rgb(74, 131, 151);
 }
 
 td,
 th {
   border: 1px solid black;
   padding: 20px 80px;
+}
+
+th {
+  color: rgb(74, 131, 151);
 }
 
 .information-vole {
@@ -31,4 +38,9 @@ th {
 .information-vole p {
   font-size: 1.2em;
   text-align: justify;
+}
+
+.information-vole p span {
+  color: red;
+  font-size: 1.2em;
 }
