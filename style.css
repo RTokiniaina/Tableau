@@ -16,7 +16,6 @@ h2 {
   margin: auto;
   font-size: 1.3em;
   padding-bottom: 28px;
-  color: rgb(74, 131, 151);
 }
 
 td,
@@ -27,6 +26,7 @@ th {
 
 th {
   color: rgb(74, 131, 151);
+  font-size: 1.1em;
 }
 
 .information-vole {
